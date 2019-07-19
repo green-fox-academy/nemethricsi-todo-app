@@ -20,6 +20,10 @@ int main(int argc, char *argv[])
         std::cout << "Unable to add: please use \"...\" for insert task." << std::endl;
     }
 
+    if (argc == 3 && std::string(argv[1]) == "-r") {
+        removeTask("../tasks.txt");
+    }
+
 
     return 0;
 }

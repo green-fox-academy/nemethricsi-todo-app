@@ -9,4 +9,6 @@ void listTasks(std::string path);
 
 void addTask(std::string task);
 
+void removeTask(std::string taskIndex);
+
 #endif //NEMETHRICSI_TODO_APP_FUNCTION_H
